@@ -1,4 +1,4 @@
-let state = {
+export let state = {
     profilePage: {
         posts: [
             {id: 1, message: 'Hi, how are you?', likesCount: 12},
@@ -26,5 +26,3 @@ let state = {
     },
     sidebar: {}
 }
-
-export default state;

@@ -2,7 +2,7 @@ import React from 'react';
 import s from './ProfileInfo.module.css';
 
 
-const ProfileInfo = () => {
+export const ProfileInfo = () => {
     return (
         <div>
             <div>
@@ -15,5 +15,3 @@ const ProfileInfo = () => {
         </div>
     )
 }
-
-export default ProfileInfo;

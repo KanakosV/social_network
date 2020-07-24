@@ -4,10 +4,10 @@ import s from './Post.module.css';
 export const Post = (props) => {
   return (
     <div className={s.item}>
-      <img src='https://movies4maniacs.liberty.me/wp-content/uploads/sites/1218/2015/09/avatarsucks.jpg' />
+      <img src='https://o-viber.ru/wp-content/uploads/2017/08/mujskie_avatarki-5.png' />
         { props.message }
           <div>
-        <span>like</span> { props.likesCount }
+        <span>likes:</span> { props.likesCount }
       </div>
     </div>
   )

@@ -24,5 +24,20 @@ export let state = {
             {id: 5, message: 'Yo'}
         ]
     },
-    sidebar: {}
+    sidebar: {
+        randomDialogs: [
+            {
+                id: 1,
+                name: 'Patrik',
+                avatar: 'https://klike.net/uploads/posts/2019-03/1551511801_1.jpg'},
+            {
+                id: 2,
+                name: 'Doblo',
+                avatar: 'https://storge.pic2.me/c/1360x800/473/5748e26f38963.jpg'},
+            {
+                id: 3,
+                name: 'Gunja',
+                avatar: 'https://klike.net/uploads/posts/2019-03/1551511784_4.jpg'}
+        ]
+    }
 }
